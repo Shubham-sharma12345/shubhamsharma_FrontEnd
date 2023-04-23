@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const SingleListItem = memo(({ index, isSelected, onClickHandler, text }) => {
   return (
     <li
-      style={{ backgroundColor: isSelected ? 'yellow' : 'green'}}
+      style={{ backgroundColor: isSelected ? 'green' : 'red'}}
       onClick={onClickHandler}
     >
       {text}

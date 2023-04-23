@@ -8,7 +8,7 @@ const SingleListItem = ({ index, isSelected, onClick, text }) => {
   }, [index, onClick]);
 
   const backgroundColor = useMemo(() => {
-    return isSelected ? 'yellow' : 'green';
+    return isSelected ? 'green' : 'red';
   }, [isSelected]);
 
   return (
